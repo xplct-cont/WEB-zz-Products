@@ -58,7 +58,7 @@
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <!-- User image -->
                     <li class="user-header bg-primary">
-                        <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
+                    <img src="{{url('images/crop.jpg')}}"
                              class="img-circle elevation-2"
                              alt="User Image">
                         <p>
@@ -150,5 +150,8 @@
 @yield('third_party_scripts')
 
 @stack('page_scripts')
+
+
+     
 </body>
 </html>
