@@ -33,3 +33,6 @@ Route::get('/home', [
 
 
 
+
+
+Route::resource('products', App\Http\Controllers\ProductsController::class);
