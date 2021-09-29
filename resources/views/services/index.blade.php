@@ -55,6 +55,11 @@
 </div>
 
 
+<div class="vivi">
+    <h5>ABOUT &nbsp|&nbsp  CONTACT US<h5>
+</div>
+
+
 
 
 
@@ -128,6 +133,18 @@
         top:500px;
         left:300px;
         font-family:'Times New Roman', serif;
+}
+
+.vivi{
+    position:absolute;
+    top:700px;
+    left:800px;
+}
+
+h5{
+    color:white;
+    font-size:30px;
+
 }
 
     </style>
