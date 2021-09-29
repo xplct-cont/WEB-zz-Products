@@ -4,7 +4,7 @@
 
 <div class="backkk">
 
-          <img src="{{url('images/backkkk.jpg')}}" width="1600" height="680" alt=""/>
+          <img src="{{url('images/backgroundhome.jpg')}}" width="1600" height="680" alt=""/>
 
      </div>
       

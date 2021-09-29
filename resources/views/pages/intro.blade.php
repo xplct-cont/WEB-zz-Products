@@ -11,7 +11,7 @@
 
 <div class="backkk">
 
-          <img src="{{url('images/backkkk.jpg')}}" width="1700" height="820" alt=""/>
+          <img src="{{url('images/backgroundindex.png')}}" width="1700" height="820" alt=""/>
 
      </div>
 
