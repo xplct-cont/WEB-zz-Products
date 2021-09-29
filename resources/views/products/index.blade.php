@@ -1,7 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+<body>
 
+<div>
+<div class="fgs">
+    <a href="{{url('/intro')}}"><b>Click For More<b></a>
+    </div>
+ </div>
 
 <div class="backkk">
 
@@ -9,8 +15,7 @@
 
      </div>
 
-
-   <div class="cc">
+     <div class="cc">
     <img src="{{url('images/redragon.jpg')}}" width="200" height="200" alt=""/>
     <div class="ov">
     <div class="t"><b>Brand :</b> <br> Redragon</div>
@@ -19,9 +24,7 @@
     </div> 
 </div>
 
-
-
-    <div class="cd">
+<div class="cd">
     <img src="{{url('images/pandora.jpg')}}" width="200" height="200" alt=""/>
     <div class="ove">
     <div class="te"><b>Brand :</b> <br> Redragon</div>
@@ -29,8 +32,8 @@
     <div class="te2"><b>Price :</b> $300.00</div>
     </div>
 </div>
-   
-    <div class="cf">
+
+<div class="cf">
     <img src="{{url('images/barracudax.jpg')}}" width="200" height="200" alt=""/>
     <div class="over">
     <div class="tex"><b>Brand :</b> <br> Razer</div>
@@ -54,11 +57,23 @@
     <div class="texts"><b>Brand :</b> <br> Logitech</div>
     <div class="texts1"><b>Model :</b> <br> G-Pro</div>
     <div class="texts2"><b>Price :</b> $520.00</div>
+      </div>
     </div>
-    </div>
-    
-  <style>
-        .cc{
+
+
+</body>
+
+
+
+<style>
+  .fgs{
+    position: absolute;
+    font-size:40px;
+    top: 50px;
+    left:270px;
+   
+}
+  .cc{
             position:absolute;
             left:270px; top:100px;
             background-color: silver;
@@ -68,7 +83,7 @@
             padding-left: 15px;
         }
 
-.ov {
+        .ov {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -126,8 +141,7 @@
   text-align: center;
 }
 
-
-        .cd{
+.cd{
             position:absolute;
             left:560px; top:100px;
             background-color: silver;
@@ -196,8 +210,7 @@
   text-align: center;
 }
 
-
-        .cf{
+.cf{
             position:absolute;
             left:850px; top:100px;
             background-color: silver;
@@ -267,7 +280,7 @@
 }
 
 
-        .cg{
+.cg{
             position:absolute;
             left:1140px; top:100px;
             background-color: silver;
@@ -335,8 +348,7 @@
   text-align: center;
 }
 
-
-        .ck{
+.ck{
             position:absolute;
             left:1430px; top:100px;
             background-color: silver;
@@ -405,81 +417,15 @@
   text-align: center;
 }
 
-.fgf{
-    position: absolute;
-    font-size:40px;
-    top: 50px;
-    left:270px;
-   
-}
 
-
-
-      </style>
-
-    <body>
-
-    <div class="fgf">
-    <a href="{{url('/intro')}}"><b>Click For More<b></a>
-    </div>
-
-    
+</style>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="content-header">
+<div class="kl">
+<section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
@@ -511,8 +457,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
+    </div>
     </div>
 
 @endsection

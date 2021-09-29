@@ -23,6 +23,18 @@ Route::get('/intro', function () {
     return view('pages.intro');
 });
 
+Route::get('/bose', function () {
+    return view('pages.bose');
+});
+
+Route::get('/beats', function () {
+    return view('pages.beats');
+});
+
+Route::get('/other', function () {
+    return view('pages.other');
+});
+
 
 Auth::routes();
 
@@ -36,3 +48,6 @@ Route::get('/home', [
 
 
 Route::resource('products', App\Http\Controllers\ProductsController::class);
+
+
+Route::resource('services', App\Http\Controllers\ServicesController::class);

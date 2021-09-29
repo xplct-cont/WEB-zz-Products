@@ -825,7 +825,7 @@
 <body>
 <div class="sd">
 
-<a href="{{url('/home')}}"><b>Go Back</b></a>
+<a href="{{url('/home')}}"><b>Back To Home</b></a>
 </div>
 </body>
 </html>
