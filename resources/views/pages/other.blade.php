@@ -14,7 +14,7 @@
    
 <body>
 <div class="sd">
-      <a href="{{url('/home')}}"><b>Back To Home</b></a>
+      <a href="{{url('/services')}}"><b>Go Back</b></a>
    </div>
 </body>
 

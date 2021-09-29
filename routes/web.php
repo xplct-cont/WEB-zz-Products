@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/index', function () {
+    return view('services.index');
+});
+
 Route::get('/intro', function () {
     return view('pages.intro');
 });
